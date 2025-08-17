@@ -48,7 +48,7 @@ background: radial-gradient(circle, rgba(227, 16, 16, 1) 0%, rgba(0, 0, 0, 1) 10
 
 .containers:hover{
     .au{
-        left: 330px;
+        left: 334px;
         opacity: 1;
     }
     .heading p{
@@ -95,4 +95,13 @@ footer{
 color: white;
 background-color: black;
 margin-bottom: 80px;
-}   
+
+}
+@media screen and (max-width: 600px) {
+    .containers:hover{
+    .au{
+        left:9vw;
+        opacity: 1;
+    }}
+}
+
