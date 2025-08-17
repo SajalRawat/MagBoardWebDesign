@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
 } */
+ 
 body{
 background: #e31010;
 background: radial-gradient(circle, rgba(227, 16, 16, 1) 0%, rgba(0, 0, 0, 1) 100%);height: 100vh;
@@ -48,7 +49,7 @@ background: radial-gradient(circle, rgba(227, 16, 16, 1) 0%, rgba(0, 0, 0, 1) 10
 
 .containers:hover{
     .au{
-        left: 334px;
+        left:334px;
         opacity: 1;
     }
     .heading p{
@@ -95,14 +96,13 @@ footer{
 color: white;
 background-color: black;
 margin-bottom: 80px;
+}   
 
-}
 @media screen and (min-width: 500px) {
     .containers:hover{
     .au{
-        left:9vw;
+        left:7vw;
         opacity: 1;
     }}
 }
-
 
